@@ -1,0 +1,88 @@
+.sl-emergency-container {
+  padding: 2%;
+}
+.sl-form-container {
+  padding: 5%;
+  background-color: #dd0303;
+  min-height: 450px;
+}
+.sl-form-header {
+  font-size: 23px;
+  font-weight: 600;
+  color: #ffff;
+  font-family: Roboto;
+}
+.sl-form-button {
+  background-color: #cbcbcb;
+  color: black;
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+
+/* ---------right container-------- */
+.sl-workmanship-container {
+  padding: 5%;
+  background-color: #3333;
+  min-height: 450px;
+}
+
+.sl-round-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  border: 5px solid white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+  font-size: 30px;
+}
+.sl-ImgStyling {
+  border-radius: 100%;
+  width: 140px;
+  height: 140px;
+}
+
+.sl-workmanship-header {
+  font-size: 28px;
+  font-weight: 700;
+  font-family: Roboto;
+}
+.sl-workmanship-sub-header {
+  font-size: 28px;
+  font-weight: 600;
+  color: #ff0000;
+  font-family: Roboto;
+}
+.sl-workmanship-para {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: Roboto;
+}
+/* --------center container------- */
+.es-header-text {
+  font-size: 30px;
+  font-weight: 700;
+  color: #dd0303;
+}
+.es-sub-header-text {
+  font-size: 30px;
+  font-weight: 500;
+}
+.es-para-text {
+  font-size: 20px;
+  font-weight: normal;
+  font-family: Roboto;
+}
+.es-call-text {
+  font-size: 18px;
+  font-weight: 400;
+  color: #dd0303;
+  font-family: Roboto;
+}
+.es-answer-text {
+  font-size: 23px;
+  font-weight: 600;
+  color: #203260;
+}

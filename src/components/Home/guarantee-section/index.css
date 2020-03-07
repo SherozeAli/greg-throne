@@ -1,0 +1,57 @@
+.guarantee-container {
+  background: url('../../../images/bg-guarantee.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: blueviolet;
+  padding: 3%;
+}
+.card-dark {
+  width: 170px;
+  min-height: 206px;
+  border-bottom-left-radius: 40%;
+  cursor: pointer;
+}
+.card-dark:hover {
+  border-bottom-left-radius: 0%;
+}
+.card-light:hover {
+  border-bottom-left-radius: 0%;
+}
+.card-light {
+  width: 170px;
+  min-height: 206px;
+  background-color: #cbcbcb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-left-radius: 40%;
+  cursor: pointer;
+}
+
+p {
+  font-size: large;
+}
+
+.gurantee-para {
+  font-size: 17px;
+  font-family: Lato;
+}
+@media only screen and (max-width: 750px) {
+  .card-light {
+    width: 170px;
+    min-height: 206px;
+    background-color: #cbcbcb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 40%;
+    cursor: pointer;
+  }
+  .card-dark {
+    width: 170px;
+    min-height: 206px;
+    border-bottom-left-radius: 40%;
+    cursor: pointer;
+  }
+}

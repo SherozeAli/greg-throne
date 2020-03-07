@@ -1,0 +1,98 @@
+.home-hero {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2%;
+  min-height: 630px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    url('../../../images/bg-home-hero.jpg') !important;
+}
+
+.home-hero-header {
+  letter-spacing: 7px;
+  font-family: Lato !important;
+  font-size: 21px !important;
+  color: rgb(255, 255, 255) !important;
+  font-weight: 200 !important;
+}
+
+.home-hero-sub-header {
+  text-align: center;
+  color: rgb(255, 255, 255) !important;
+  font-size: 52px !important;
+  font-family: Lato !important;
+  font-weight: 400 !important;
+}
+.home-hero-horizontal-rule {
+  background-color: #666666;
+  height: 3px;
+  margin: 3px 0px 2px 0px;
+}
+.home-hero-sub-header-container {
+  margin-top: 20px;
+  line-height: 1;
+}
+.home-hero-para {
+  font-family: Lato !important;
+  font-size: 21px !important;
+  color: rgb(255, 255, 255) !important;
+  font-weight: 200 !important;
+  padding-top: 10px;
+}
+.home-hero-para-container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.home-hero-button {
+  font-family: 'Open Sans' !important;
+  font-size: 10px !important;
+  background-color: #de2516;
+}
+.home-btn-text {
+  font-weight: lighter !important;
+
+  font-size: 23px;
+}
+
+.home-hero-button:hover {
+  background: #812015;
+}
+
+@media only screen and (max-width: 390px) {
+  .home-main-row {
+    text-align: center;
+  }
+  .home-hero {
+    min-height: 350px;
+  }
+  .home-hero-sub-header {
+    font-size: 42px !important;
+    font-weight: 300 !important;
+  }
+  .home-hero-para-container {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .home-btn-text {
+    font-size: 20px;
+    font-weight: lighter;
+  }
+}
+@media only screen and (max-width: 490px) {
+  .home-main-row {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .home-hero-para-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .home-hero {
+    min-height: 450px;
+  }
+  .home-hero-sub-header {
+    font-size: 45px !important;
+    font-weight: 300 !important;
+  }
+}

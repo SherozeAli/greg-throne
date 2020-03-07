@@ -1,0 +1,32 @@
+.wcu-container {
+  background: url('../../../images/bg-store-location-about.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 3%;
+}
+.wcu-header-text {
+  font-size: 30px;
+  color: #fff;
+  font-family: Roboto;
+  font-weight: 700;
+}
+
+.wcu-ul-list {
+  line-height: 40px;
+  color: #fff;
+  font-size: 20px;
+}
+.wcu-ul-list > li > span > i {
+  color: yellow;
+  font-size: 20px;
+}
+
+.wcu-ul-list > li {
+  font-size: 16px;
+}
+
+.wcu-img-styling {
+  width: 100%;
+  min-height: 100px;
+}

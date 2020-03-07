@@ -1,0 +1,37 @@
+.readmore-card {
+  background-color: #cecece;
+  box-shadow: 7px 7px 5px #bec2be;
+
+  transition: 0.3s;
+  min-height: 450px;
+}
+
+.readmore-card-img {
+  min-height: 140px;
+}
+.readmore-card-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+.readmore-card-desc {
+  font-size: 17px;
+  font-weight: 500;
+  color: black;
+}
+
+.readmore-text {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 800px) {
+  .readmore-card {
+    min-height: 350px;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+}

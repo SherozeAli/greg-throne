@@ -1,0 +1,41 @@
+.store-location-hero-img {
+  background-color: blue;
+  background-image: linear-gradient(
+      rgba(32, 50, 96, 0.62),
+      rgba(32, 50, 96, 0.62)
+    ),
+    url('../../../images/bg-store-location.jpg') !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  padding: 5%;
+  min-height: 450px;
+}
+
+.sl-hero-button {
+  background-color: #ff0000;
+  border-radius: 10px;
+}
+
+.sl-hero-header-text {
+  font-size: 50px;
+  font-weight: 700;
+  font-family: Roboto;
+}
+
+@media only screen and (max-width: 700px) {
+  .sl-hero-header-text {
+    font-size: 44px;
+    font-weight: 500;
+    font-family: Roboto;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .sl-hero-header-text {
+    font-size: 37px;
+    font-weight: 500;
+    font-family: Roboto;
+  }
+}

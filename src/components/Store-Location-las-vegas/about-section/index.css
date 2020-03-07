@@ -1,0 +1,24 @@
+.about-parent-container {
+  padding: 3%;
+
+  background: url('../../../images/bg-store-location-about.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-para-heading {
+  color: #cbcbcb;
+  font-size: 40px;
+  font-family: Roboto;
+}
+.about-para {
+  font-size: 20px;
+  font-family: Roboto;
+  color: white;
+}
+
+.about-horizontal-line {
+  color: blue;
+  height: 10px;
+}

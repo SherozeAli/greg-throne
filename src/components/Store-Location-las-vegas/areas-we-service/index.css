@@ -1,0 +1,38 @@
+.aws-container {
+  background-color: #1a2343;
+  padding: 3%;
+
+  background-image: linear-gradient(
+      rgba(15, 32, 78, 0.52),
+      rgba(15, 32, 78, 0.52)
+    ),
+    linear-gradient(rgba(17, 20, 57, 0.46), rgba(17, 20, 57, 0.46)),
+    url('../../../images/bg-store-location-services.jpg') !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.aws-header-text {
+  font-size: 30px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.aws-ul-list {
+  line-height: 35px;
+  color: #fff;
+  font-size: 20px;
+}
+.aws-ul-list > li > span > i {
+  color: red;
+  font-size: 20px;
+}
+
+.aws-ul-list > li {
+  font-size: 18px;
+}
+
+.aws-img-styling {
+  width: 100%;
+  min-height: 100px;
+}

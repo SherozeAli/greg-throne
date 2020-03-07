@@ -1,0 +1,31 @@
+.sl-map-container {
+  padding: 3%;
+
+  /* background: url('../../../images/bg-store-location-map.jpg'); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #1f2f57;
+}
+.map-container-header-text {
+  font-size: 35px;
+  font-family: Roboto;
+  color: white;
+  font-weight: 700;
+}
+.map-container-para-text {
+  font-size: 16px;
+  font-family: Roboto;
+  color: white;
+  font-weight: 400;
+}
+.map-line-height-text {
+  line-height: 25px;
+}
+.map-container-footer-text {
+  line-height: normal;
+  font-size: 16px;
+  font-family: Roboto;
+  color: white;
+  font-weight: 400;
+}

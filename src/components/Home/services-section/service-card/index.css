@@ -1,0 +1,39 @@
+.service-card {
+  background-color: black;
+  color: #fff;
+  opacity: 0.6;
+  padding: 12%;
+  font-size: large;
+  cursor: pointer;
+}
+.service-card:hover {
+  background-color: #ff0000;
+  color: #fff;
+  opacity: 1;
+}
+@media only screen and (max-width: 1030px) {
+  .service-card {
+    padding: 8%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .service-card {
+    background-color: black;
+    color: #fff;
+    opacity: 0.6;
+    padding: 6%;
+    font-size: large;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .service-card {
+    background-color: black;
+    color: #fff;
+    opacity: 0.6;
+    padding: 4%;
+    font-size: large;
+    cursor: pointer;
+  }
+}

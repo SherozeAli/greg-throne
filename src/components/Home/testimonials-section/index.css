@@ -1,0 +1,33 @@
+.testimonial-main-container {
+  padding: 3%;
+}
+.testimonial-header-text {
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+  padding-top: 10px;
+}
+.testimonial-button {
+  border-radius: 10px;
+}
+
+.first-row-testimonial {
+  padding-top: 15px;
+}
+.second-row-testimonial {
+  padding-top: 15px;
+}
+@media only screen and (max-width: 800px) {
+  .testimonial-header-text {
+    font-size: 23px;
+    font-weight: bold;
+    color: black;
+    padding-top: 10px;
+  }
+  .second-row-testimonial {
+    padding-top: 5px;
+  }
+  .first-row-testimonial {
+    padding-top: 5px;
+  }
+}

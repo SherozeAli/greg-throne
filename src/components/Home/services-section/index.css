@@ -1,0 +1,10 @@
+.service-section-container {
+  background: url('../../../images//bg-service.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 3%;
+}
+.service-section-button {
+  border-radius: 15px;
+}

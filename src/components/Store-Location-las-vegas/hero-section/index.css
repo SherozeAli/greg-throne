@@ -1,0 +1,24 @@
+.store-location-hero-img-las-vegas {
+  background-color: blue;
+  background: url('../../../images/bg-las-vegas.jpg');
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  padding: 4%;
+  min-height: 450px;
+}
+
+.sl-hero-button {
+  background-color: #ff0000;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.sl-hero-header-text {
+  font-size: 50px;
+  font-weight: 700;
+  font-family: Roboto;
+}

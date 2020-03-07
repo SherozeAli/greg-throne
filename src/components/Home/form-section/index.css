@@ -1,0 +1,25 @@
+#form-section-container {
+  background: url('../../../images//bg-form.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: blueviolet;
+  padding: 3%;
+}
+
+.form-button {
+  background-color: #cd3a28;
+  padding: 1%;
+}
+.form-container {
+  border-radius: 15px;
+  box-shadow: 4px 4px 3px lightslategrey;
+  transition: 0.3s;
+  padding: 5%;
+}
+
+@media only screen and (max-width: 400px) {
+  #form-section-container {
+    padding: 2%;
+  }
+}

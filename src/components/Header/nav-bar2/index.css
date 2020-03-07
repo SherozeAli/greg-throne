@@ -1,0 +1,64 @@
+.nav-bar-2 {
+  background: #fff;
+}
+.navbar-hover {
+  cursor: pointer;
+}
+.nav-drop-down {
+  font-weight: 500;
+  font-size: 20px;
+  color: black;
+  padding: 0.35rem 0.5rem !important;
+}
+.navbar-list-items {
+  color: black;
+  font-weight: 500;
+  font-size: 20px;
+}
+.drop-down-list-items {
+  padding: 0% !important;
+  color: black;
+  font-weight: 350;
+
+  font-size: 17px;
+}
+
+.dd-hover:hover {
+  text-decoration: none !important;
+}
+
+.dd-item-hover {
+  padding: 0.7em 0.75em !important;
+}
+
+.dd-item-hover:hover {
+  background: rgb(236, 231, 231) !important;
+}
+
+.dd-item-hover:hover .drop-down-list-items {
+  color: #ba0000;
+}
+
+.dropdown-menu {
+  padding: 0 !important;
+}
+
+.dropdown-divider {
+  margin: 0;
+}
+
+.dd-divider {
+  margin: 0 !important;
+  padding: 0;
+}
+.contact-us-text {
+  font-weight: 500;
+  font-size: 20px;
+  color: black;
+  padding: 0.35rem 0.5rem !important;
+}
+@media screen and (max-width: 1190px) {
+  .ul-items > h5 {
+    font-size: 15px;
+  }
+}

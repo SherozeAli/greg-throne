@@ -1,0 +1,11 @@
+#blogs-section {
+  padding: 15px 0;
+}
+
+#blogs-setion .container{
+  max-width: 1200px;
+}
+
+.blog-container-main > h1 {
+  font-family: Lato, sans-serif;
+}
