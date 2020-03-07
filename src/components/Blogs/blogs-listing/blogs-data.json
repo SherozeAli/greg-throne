@@ -1,95 +1,10 @@
-{
-  "blog": [
-    {
-      "id": 1,
-      "slug": "/single-blog",
-      "img": "../../../../static/blog-images/Earth-day.jpeg",
-      "title": "abc umbing Ideas to Conserve Water",
-      "category": "Energy Conservation",
-      "author": "hawthornephc",
-      "facebook": "#",
-      "twitter": "#",
-      "instagram": "#",
-      "linkedin": "#",
-      "content": "Earth Day’s Inception began on April 22, 1969.&nbsp; Since then our awareness of the need for conversation of our greatest resources have dramatically improved. We owe it to ourselves and future generations to leave our world a better place than we found it. The good news is that there are benefits to this consciousness that have […]"
-    },
-    {
-      "id": 2,
-      "slug": "/single-blog",
-      "img": "../../../../static/blog-images/Earth-day.jpeg",
-      "title": "Earth Day: 6 Plumbing Ideas to Conserve Water",
-      "category": "Energy Conservation",
-      "author": "hawthornephc",
-      "facebook": "#",
-      "twitter": "#",
-      "instagram": "#",
-      "linkedin": "#",
-      "content": "Earth Day’s Inception began on April 22, 1969.&nbsp; Since then our awareness of the need for conversation of our greatest resources have dramatically improved. We owe it to ourselves and future generations to leave our world a better place than we found it. The good news is that there are benefits to this consciousness that have […]"
-    },
-    {
-      "id": 2,
-      "slug": "/single-blog",
-      "img": "../../../../static/blog-images/Earth-day.jpeg",
-      "title": "Earth Day: 6 Plumbing Ideas to Conserve Water",
-      "category": "Energy Conservation",
-      "author": "hawthornephc",
-      "facebook": "#",
-      "twitter": "#",
-      "instagram": "#",
-      "linkedin": "#",
-      "content": "Earth Day’s Inception began on April 22, 1969.&nbsp; Since then our awareness of the need for conversation of our greatest resources have dramatically improved. We owe it to ourselves and future generations to leave our world a better place than we found it. The good news is that there are benefits to this consciousness that have […]"
-    },
-    {
-      "id": 3,
-      "slug": "/single-blog",
-      "img": "../../../../static/blog-images/Earth-day.jpeg",
-      "title": "Earth Day: 6 Plumbing Ideas to Conserve Water",
-      "category": "Energy Conservation",
-      "author": "hawthornephc",
-      "facebook": "#",
-      "twitter": "#",
-      "instagram": "#",
-      "linkedin": "#",
-      "content": "Earth Day’s Inception began on April 22, 1969.&nbsp; Since then our awareness of the need for conversation of our greatest resources have dramatically improved. We owe it to ourselves and future generations to leave our world a better place than we found it. The good news is that there are benefits to this consciousness that have […]"
-    },
-    {
-      "id": 4,
-      "slug": "/single-blog",
-      "img": "../../../../static/blog-images/Earth-day.jpeg",
-      "title": "Earth Day: 6 Plumbing Ideas to Conserve Water",
-      "category": "Energy Conservation",
-      "author": "hawthornephc",
-      "facebook": "#",
-      "twitter": "#",
-      "instagram": "#",
-      "linkedin": "#",
-      "content": "Earth Day’s Inception began on April 22, 1969.&nbsp; Since then our awareness of the need for conversation of our greatest resources have dramatically improved. We owe it to ourselves and future generations to leave our world a better place than we found it. The good news is that there are benefits to this consciousness that have […]"
-    },
-    {
-      "id": 5,
-      "slug": "/single-blog",
-      "img": "../../../../static/blog-images/Earth-day.jpeg",
-      "title": "Earth Day: 6 Plumbing Ideas to Conserve Water",
-      "category": "Energy Conservation",
-      "author": "hawthornephc",
-      "facebook": "#",
-      "twitter": "#",
-      "instagram": "#",
-      "linkedin": "#",
-      "content": "Earth Day’s Inception began on April 22, 1969.&nbsp; Since then our awareness of the need for conversation of our greatest resources have dramatically improved. We owe it to ourselves and future generations to leave our world a better place than we found it. The good news is that there are benefits to this consciousness that have […]"
-    },
-    {
-      "id": 6,
-      "slug": "/single-blog",
-      "img": "../../../../static/blog-images/Earth-day.jpeg",
-      "title": "Earth Day: 6 Plumbing Ideas to Conserve Water",
-      "category": "Energy Conservation",
-      "author": "hawthornephc",
-      "facebook": "#",
-      "twitter": "#",
-      "instagram": "#",
-      "linkedin": "#",
-      "content": "Earth Day’s Inception began on April 22, 1969.&nbsp; Since then our awareness of the need for conversation of our greatest resources have dramatically improved. We owe it to ourselves and future generations to leave our world a better place than we found it. The good news is that there are benefits to this consciousness that have […]"
-    }
-  ]
-}
+[
+  {
+    "id": 1583565660,
+    "title": "dfgdfdfd",
+    "template": "SinglePost",
+    "date": "March 07, 2020",
+    "time": "12:21",
+    "status": "Featured"
+  }
+]
