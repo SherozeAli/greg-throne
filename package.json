@@ -68,6 +68,7 @@
     "develop": "gatsby develop",
     "clean": "rm -rf .cache public",
     "serve": "gatsby serve",
+    "server": "node static/main.js",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
