@@ -221,7 +221,7 @@ const NavBar2 = () => {
                 </DropdownToggle>
                 <DropdownMenu className='dropdown-menu'>
                   <DropdownItem className='dd-item-hover'>
-                    <Link to='/' className='dd-hover ul-items'>
+                    <Link to='/blogs' className='dd-hover ul-items'>
                       <h5 className='drop-down-list-items'>Blog</h5>
                     </Link>
                   </DropdownItem>
