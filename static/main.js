@@ -102,7 +102,7 @@ const getBlogs = () => {
           })
           let data = JSON.stringify(sortedList)
           fs.writeFileSync(
-            'src/components/Blogs/blogs-listing/blogs-data.json',
+            '../src/components/Blogs/blogs-listing/blogs-data.json',
             data
           )
         }
