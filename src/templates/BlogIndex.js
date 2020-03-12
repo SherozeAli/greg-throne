@@ -41,44 +41,41 @@ export const BlogIndexTemplate = ({
   enableSearch = true,
   contentType
 }) => (
-    <Location>
-      {({ location }) => {
-        let filteredPosts =
-          posts && !!posts.length
-            ? byCategory(byDate(posts), title, contentType)
-            : []
+  <Location>
+    {({ location }) => {
+      let filteredPosts =
+        posts && !!posts.length
+          ? byCategory(byDate(posts), title, contentType)
+          : []
 
-        let queryObj = location.search.replace('?', '')
-        queryObj = qs.parse(queryObj)
+      let queryObj = location.search.replace('?', '')
+      queryObj = qs.parse(queryObj)
 
-        if (enableSearch && queryObj.s) {
-          const searchTerm = queryObj.s.toLowerCase()
-          filteredPosts = filteredPosts.filter(post =>
-            post.frontmatter.title.toLowerCase().includes(searchTerm)
-          )
-        }
-
-        return (
-          <main className="Blog">
-
-            {!!postCategories.length && (
-              <section className="section thin">
-                <div className="container">
-                </div>
-              </section>
-            )}
-
-            {!!posts.length && (
-              <section className="section">
-                <div className="container">
-                </div>
-              </section>
-            )}
-          </main>
+      if (enableSearch && queryObj.s) {
+        const searchTerm = queryObj.s.toLowerCase()
+        filteredPosts = filteredPosts.filter(post =>
+          post.frontmatter.title.toLowerCase().includes(searchTerm)
         )
-      }}
-    </Location>
-  )
+      }
+
+      return (
+        <main className='Blog'>
+          {!!postCategories.length && (
+            <section className='section thin'>
+              <div className='container'></div>
+            </section>
+          )}
+
+          {!!posts.length && (
+            <section className='section'>
+              <div className='container'></div>
+            </section>
+          )}
+        </main>
+      )
+    }}
+  </Location>
+)
 
 // Export Default BlogIndex for front-end
 const BlogIndex = ({ data: { page, posts, postCategories } }) => (

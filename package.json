@@ -64,8 +64,8 @@
   "main": "n/a",
   "scripts": {
     "start": "npm run clean && npm run develop",
-    "build": "node static/main.js && gatsby build",
-    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "develop": "node static/main.js && gatsby develop",
     "clean": "rm -rf .cache public",
     "serve": "gatsby serve",
     "server": "node static/main.js",

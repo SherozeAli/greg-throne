@@ -2,7 +2,7 @@ import React from 'react'
 import CMS from 'netlify-cms-app'
 import './cms-utils'
 
-import { HomePageTemplate } from '../templates/HomePage'
+import Blogs from '../components/Blogs/blogs-listing'
 import { ComponentsPageTemplate } from '../templates/ComponentsPage'
 import { ContactPageTemplate } from '../templates/ContactPage'
 import { DefaultPageTemplate } from '../templates/DefaultPage'
@@ -27,6 +27,9 @@ CMS.registerPreviewTemplate('blog-page', ({ entry }) => (
 ))
 CMS.registerPreviewTemplate('components-page', ({ entry }) => (
   <ComponentsPageTemplate {...entry.toJS().data} />
+))
+CMS.registerPreviewTemplate('blogs-page', ({ entry }) => (
+  <Blogs {...entry.toJS().data} />
 ))
 CMS.registerPreviewTemplate('contact-page', ({ entry }) => (
   <ContactPageTemplate {...entry.toJS().data} />
