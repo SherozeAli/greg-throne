@@ -6,7 +6,7 @@ import Home from '../components/Home/index'
 const Homee = () => {
   return (
     <Layout>
-      <SEO title='Home' />
+      <SEO title='| Home' />
       <Home />
     </Layout>
   )
