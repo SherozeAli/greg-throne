@@ -1,7 +1,7 @@
 # See https://github.com/netlify/netlify-cms/blob/master/example/config.yml
 backend:
-  name: gitlab
-  repo: https://gitlab.com/Nauman440/hawthronephc.git
+  name: github
+  repo: https://github.com/SherozeAli/greg-throne.git
   branch: sheroze-dev # Branch to update (optional; defaults to master)
   auth_type: implicit # Required for implicit grant
   app_id: 90 # Application ID from your GitLab settings
